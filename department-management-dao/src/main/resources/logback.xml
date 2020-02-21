@@ -19,7 +19,7 @@
             <fileNamePattern>log/rollingLog.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
             <!-- keep 3- days, max 50 kb -->
             <maxHistory>30</maxHistory>
-            <maxFileSize>500</maxFileSize>
+            <maxFileSize>1000</maxFileSize>
             <totalSizeCap>500Mb</totalSizeCap>
         </rollingPolicy>
         <encoder>
