@@ -13,9 +13,7 @@ import org.springframework.jdbc.support.KeyHolder;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 public class DepartmentJdbcDaoImpl implements DepartmentDao {
 
@@ -34,7 +32,7 @@ public class DepartmentJdbcDaoImpl implements DepartmentDao {
 
     @Override
     public List<Department> getDepartments() {
-        LOGGER.trace("Get all deparments");
+        LOGGER.info("Get all deparments");
         List<Department> departments = namedParameterJdbcTemplate
                 .query(SELECT_ALL_QUERY, new DepartmentRowMapper());
         return departments;
@@ -42,7 +40,7 @@ public class DepartmentJdbcDaoImpl implements DepartmentDao {
 
     @Override
     public Department getDepartmentById(Integer departmentId) {
-        LOGGER.trace("Get deparment by id");
+        LOGGER.info("Get deparment by id");
         try {
             Department department = namedParameterJdbcTemplate
                     .queryForObject(SELECT_BY_ID_QUERY, new MapSqlParameterSource(
@@ -56,7 +54,7 @@ public class DepartmentJdbcDaoImpl implements DepartmentDao {
 
     @Override
     public Department addDepartment(Department department) {
-        LOGGER.trace("Add deparment");
+        LOGGER.info("Add deparment");
         MapSqlParameterSource namedParameters = new MapSqlParameterSource();
         namedParameters.addValue("departmentId", department.getDepartmentId());
         namedParameters.addValue("departmentName", department.getDepartmentName());
@@ -74,7 +72,7 @@ public class DepartmentJdbcDaoImpl implements DepartmentDao {
 
     @Override
     public void updateDepartment(Department department) {
-        LOGGER.trace("Update deparment");
+        LOGGER.info("Update deparment");
         MapSqlParameterSource namedParameters = new MapSqlParameterSource();
         namedParameters.addValue("id", department.getDepartmentId());
         namedParameters.addValue("departmentName", department.getDepartmentName());

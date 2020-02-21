@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9743f311-d65c-400c-b949-baf15db2698e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_200.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_vintage_junit_vintage_engine_5_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aignathick-department-mngmnt.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department-management-dao/department-management-dao.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department-management-dao/log/prj.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department-management-dao/target/classes/com/epam/brest/courses/dao/DepartmentDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department-management-dao/target/classes/com/epam/brest/courses/dao/DepartmentJdbcDaoImpl$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department-management-dao/target/classes/com/epam/brest/courses/dao/DepartmentJdbcDaoImpl$DepartmentRowMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department-management-dao/target/classes/com/epam/brest/courses/dao/DepartmentJdbcDaoImpl$EmployeeRowMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department-management-dao/target/classes/com/epam/brest/courses/dao/DepartmentJdbcDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department-management-dao/target/classes/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department-management-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department-management-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department-management-dao/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department-management-dao/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department-management-dao/target/surefire-reports/TEST-com.epam.brest.courses.dao.DepartmentJdbcDaoImplTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department-management-dao/target/surefire-reports/com.epam.brest.courses.dao.DepartmentJdbcDaoImplTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department-management-dao/target/test-classes/com/epam/brest/courses/dao/DepartmentJdbcDaoImplTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department-management-dao/target/test-classes/com/epam/brest/courses/dao/EmployeeJdbcDaoImplTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department-management-dao/target/test-classes/test-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department-management-model/department-management-model.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department-management-model/target/classes/com/epam/brest/courses/model/Department.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department-management-model/target/classes/com/epam/brest/courses/model/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department-management-model/target/department-management-model-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department-management-model/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department-management-model/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department-management-model/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/department-management-test/target/department-management-test-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/department-management-test/target/department-management-test-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/department-management-test/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/department-management-test/target/maven-archiver/pom.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XlajIdmXuBjus6N3hxnWEVesTa" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/department-management-dao/src/main/resources" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.epam.brest.courses.dao" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/department-management-model/src/main/java/com/epam/brest/courses/model" />
+      <recent name="$PROJECT_DIR$/department-management-model/src/main" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/department-management-dao/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="DepartmentJdbcDaoImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="department-management-dao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epam.brest.courses.dao.DepartmentJdbcDaoImpl" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.epam.brest.courses.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.brest.courses.dao.DepartmentJdbcDaoImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DepartmentJdbcDaoImplTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9743f311-d65c-400c-b949-baf15db2698e" name="Default Changelist" comment="" />
+      <created>1581623268772</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581623268772</updated>
+    </task>
+    <task id="LOCAL-00001" summary="make dao and model layers dependencyes, using maven pom config files">
+      <created>1581627137146</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581627137146</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Write department dao implimentation and tests">
+      <created>1582276886736</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582276886737</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Write department dao implimentation and tests">
+      <created>1582286503389</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582286503389</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="make dao and model layers dependencyes, using maven pom config files" />
+    <MESSAGE value="Write department dao implimentation and tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Write department dao implimentation and tests" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="724" y="315" width="847" height="529" key="#Project_Structure" timestamp="1582230270326">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="2828" y="394" width="847" height="677" key="#Project_Structure/1920.0.2560.1440/0.27.1920.1053@1920.0.2560.1440" timestamp="1581623983505" />
+    <state x="724" y="315" width="847" height="529" key="#Project_Structure/67.27.1853.1053@67.27.1853.1053" timestamp="1582230270326" />
+    <state x="2946" y="537" width="564" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581624189794">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2946" y="537" width="564" height="390" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.2560.1440/0.27.1920.1053@1920.0.2560.1440" timestamp="1581624189794" />
+    <state x="878" y="333" width="548" height="626" key="#com.intellij.ide.util.MemberChooser" timestamp="1581961392310">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="3041" y="419" width="548" height="626" key="#com.intellij.ide.util.MemberChooser/1920.0.2560.1440/0.27.1920.1053@1920.0.2560.1440" timestamp="1581624643543" />
+    <state x="878" y="333" width="548" height="626" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1581961392310" />
+    <state x="445" y="91" width="1224" height="807" key="CommitChangelistDialog2" timestamp="1582286503105">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="2442" y="88" width="970" height="807" key="CommitChangelistDialog2/1920.0.2560.1440/0.27.1920.1053@1920.0.2560.1440" timestamp="1581627136909" />
+    <state x="445" y="91" width="1224" height="807" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1582286503105" />
+    <state x="3016" y="490" width="424" height="484" key="FileChooserDialogImpl" timestamp="1581624341034">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3016" y="490" width="424" height="484" key="FileChooserDialogImpl/1920.0.2560.1440/0.27.1920.1053@1920.0.2560.1440" timestamp="1581624341034" />
+    <state width="1807" height="363" key="GridCell.Tab.0.bottom" timestamp="1582287573603">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="2447" height="397" key="GridCell.Tab.0.bottom/1920.0.2560.1440/0.27.1920.1053@1920.0.2560.1440" timestamp="1581627911672" />
+    <state width="1807" height="363" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1582287573603" />
+    <state width="1807" height="363" key="GridCell.Tab.0.center" timestamp="1582287573603">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="2447" height="397" key="GridCell.Tab.0.center/1920.0.2560.1440/0.27.1920.1053@1920.0.2560.1440" timestamp="1581627911671" />
+    <state width="1807" height="363" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1582287573603" />
+    <state width="1807" height="363" key="GridCell.Tab.0.left" timestamp="1582287573602">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="2447" height="397" key="GridCell.Tab.0.left/1920.0.2560.1440/0.27.1920.1053@1920.0.2560.1440" timestamp="1581627911671" />
+    <state width="1807" height="363" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1582287573602" />
+    <state width="1807" height="363" key="GridCell.Tab.0.right" timestamp="1582287573603">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="2447" height="397" key="GridCell.Tab.0.right/1920.0.2560.1440/0.27.1920.1053@1920.0.2560.1440" timestamp="1581627911672" />
+    <state width="1807" height="363" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1582287573603" />
+    <state width="1807" height="363" key="GridCell.Tab.1.bottom" timestamp="1582287573604">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="363" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1582287573604" />
+    <state width="1807" height="363" key="GridCell.Tab.1.center" timestamp="1582287573604">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="363" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1582287573604" />
+    <state width="1807" height="363" key="GridCell.Tab.1.left" timestamp="1582287573603">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="363" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1582287573603" />
+    <state width="1807" height="363" key="GridCell.Tab.1.right" timestamp="1582287573604">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="363" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1582287573604" />
+    <state x="526" y="210" width="924" height="684" key="Maven.ArtifactSearchDialog" timestamp="1581956760650">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="526" y="210" width="924" height="684" key="Maven.ArtifactSearchDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1581956760650" />
+    <state x="738" y="283" width="900" height="730" key="SettingsEditor" timestamp="1582286971264">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="2716" y="310" width="1024" height="845" key="SettingsEditor/1920.0.2560.1440/0.27.1920.1053@1920.0.2560.1440" timestamp="1581625496100" />
+    <state x="738" y="283" width="900" height="730" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1582286971264" />
+    <state x="724" y="369" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1582286821084">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="2828" y="468" width="800" height="528" key="Vcs.Push.Dialog.v2/1920.0.2560.1440/0.27.1920.1053@1920.0.2560.1440" timestamp="1581627278735" />
+    <state x="724" y="369" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1582286821084" />
+    <state x="728" y="254" width="520" height="596" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1581953522513">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="728" y="254" width="520" height="596" key="com.intellij.testIntegration.createTest.CreateTestDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1581953522513" />
+    <state x="399" y="310" width="1372" height="798" key="new project wizard" timestamp="1581953780302">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="2378" y="387" width="1372" height="798" key="new project wizard/1920.0.2560.1440/0.27.1920.1053@1920.0.2560.1440" timestamp="1581624851592" />
+    <state x="399" y="310" key="new project wizard/67.27.1853.1053@67.27.1853.1053" timestamp="1581953780302" />
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1582274715636">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1582274715636" />
+  </component>
+</project>
