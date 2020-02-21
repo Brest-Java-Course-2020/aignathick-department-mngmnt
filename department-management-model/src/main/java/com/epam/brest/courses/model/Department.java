@@ -1,4 +1,4 @@
-package com.epam.courses.model;
+package com.epam.brest.courses.model;
 
 public class Department {
     private Integer departmentId;
