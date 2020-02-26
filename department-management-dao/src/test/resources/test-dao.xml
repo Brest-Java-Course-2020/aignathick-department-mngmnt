@@ -11,4 +11,14 @@
         <constructor-arg ref="dataSource"/>
     </bean>
 
+    <!-- тестирование через заглушки
+    <bean id="departmentDao" class="com.epam.brest.courses.dao.DepartmentJdbcDaoImpl">
+        <constructor-arg ref="mock"/>
+    </bean>
+
+    <bean id="mock" class="org.mockito.Mockito" factory-method="mock">
+        <constructor-arg value="org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate"/>
+    </bean>
+    -->
+
 </beans>

@@ -4,6 +4,7 @@ import com.epam.brest.courses.model.Department;
 import com.epam.brest.courses.model.Employee;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
@@ -18,7 +19,8 @@ import java.util.List;
 public class DepartmentJdbcDaoImpl implements DepartmentDao {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(DepartmentJdbcDaoImpl.class);
-    private final String SELECT_ALL_QUERY = "SELECT d.departmentId, d.departmentName FROM department d ORDER BY d.departmentName";
+    @Value("${department.select}")
+    private String selectSql;
     private final String SELECT_BY_ID_QUERY = "SELECT departmentId, departmentName FROM department WHERE departmentId = :id";
     private final String INSERT_QUERY = "insert into department (departmentId, departmentName) values (:departmentId, :departmentName)";
     private final String UPDATE_QUERY = "update department set departmentName = :departmentName where departmentId = :id";
@@ -34,7 +36,7 @@ public class DepartmentJdbcDaoImpl implements DepartmentDao {
     public List<Department> getDepartments() {
         LOGGER.info("Get all deparments");
         List<Department> departments = namedParameterJdbcTemplate
-                .query(SELECT_ALL_QUERY, new DepartmentRowMapper());
+                .query(selectSql, new DepartmentRowMapper());
         return departments;
     }
 
